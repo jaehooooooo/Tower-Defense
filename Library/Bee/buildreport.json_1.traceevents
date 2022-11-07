@@ -1,0 +1,640 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1661323744643150, "dur": 1294994, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661323744644358, "dur": 34600, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661323744679183, "dur": 1248757, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661323745927960, "dur": 10184, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661323753359142, "dur": 1088141, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661323753359412, "dur": 2815, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661323753362229, "dur": 46007, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661323753408279, "dur": 447725, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661323753856006, "dur": 589999, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661323754446007, "dur": 1275, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661323754447667, "dur": 15, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1661323753555943, "dur": 285115, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661323753556818, "dur": 46922, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661323753825598, "dur": 5565, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661323753831166, "dur": 9886, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661323753831719, "dur": 7768, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661323753844942, "dur": 1380, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661323753844114, "dur": 2242, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661323754447727, "dur": 185, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1661323753922424, "dur":1691, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323753924120, "dur":71, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1661323753924220, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1661323753924238, "dur":1801, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1661323753926085, "dur":628, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323753926713, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754429962, "dur":290, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754430252, "dur":354, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754430606, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754430609, "dur":276, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754430885, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754430886, "dur":271, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754431157, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754431159, "dur":270, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754431429, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754431430, "dur":282, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754431712, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754431715, "dur":270, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754431985, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754431987, "dur":277, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754432264, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754432265, "dur":270, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754432535, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754432536, "dur":285, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754432821, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754432823, "dur":270, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754433093, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754433095, "dur":269, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754433364, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754433365, "dur":272, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754433637, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754433638, "dur":268, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754433907, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754433908, "dur":277, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754434185, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754434186, "dur":271, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754434457, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754434458, "dur":310, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754434768, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754434781, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754434796, "dur":3125, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1661323753924716, "dur":2007, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661323753926725, "dur":6667, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661323753933405, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661323753933405, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661323753933446, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661323753933450, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661323753935498, "dur":5908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661323753941409, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1661323753941540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661323753941556, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1661323753943674, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323753943828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661323753943844, "dur":86000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754029986, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754030010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661323754030015, "dur":7203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754037270, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754037302, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661323754037310, "dur":27527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754064853, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754064870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661323754064875, "dur":11442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754076341, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754076408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661323754076415, "dur":4799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754081234, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754081258, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661323754081263, "dur":6083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754087361, "dur":523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754087887, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661323754087892, "dur":7136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754095042, "dur":561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754095605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661323754095609, "dur":16899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754112521, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754112533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661323754112538, "dur":24244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754136802, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/AssistantCoreSDKRuntime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754137038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661323754137043, "dur":18578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/AssistantCoreSDKRuntime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661323754155635, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1661323754155651, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661323754155654, "dur":67001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1661323754222667, "dur":207302, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661323753924741, "dur":1987, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661323753926728, "dur":6679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661323753933409, "dur":663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1661323753934077, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661323753939738, "dur":2504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1661323753942436, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1661323753942751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661323753942757, "dur":18400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1661323753961338, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1661323753961460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661323753969052, "dur":63831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1661323754033042, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754033063, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661323754033068, "dur":9106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754042188, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754042208, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661323754042213, "dur":14338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754056567, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754056587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661323754056593, "dur":11760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754068378, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754068395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661323754068399, "dur":12492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754080903, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754080920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661323754080924, "dur":6250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754087184, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754087518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661323754087523, "dur":6935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754094620, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754094913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661323754094921, "dur":11733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754106673, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754106691, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661323754106695, "dur":24239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754130952, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Facebook.WitAI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754131285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661323754131290, "dur":18369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Facebook.WitAI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661323754149682, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1661323754149972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661323754166861, "dur":65583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1661323754232465, "dur":197519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323753924819, "dur":1914, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323753926734, "dur":6688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323753933425, "dur":755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1661323753934183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323753951623, "dur":22521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1661323753974339, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323753974367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323753974442, "dur":30863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754005323, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754005345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323754005352, "dur":24502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754029874, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754029903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323754029909, "dur":7182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754037102, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754037115, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323754037119, "dur":18867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754056008, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754056026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323754056032, "dur":12709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754068761, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754068778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323754068783, "dur":11747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754080544, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754080564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323754080569, "dur":5819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754086420, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754086759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323754086767, "dur":7345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754094131, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754094573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323754094579, "dur":8100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754102693, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754102791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323754102796, "dur":13351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754116178, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754116213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323754116220, "dur":22538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754138771, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754138791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323754144119, "dur":39246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661323754183387, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1661323754183405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661323754183411, "dur":36687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1661323754220115, "dur":209841, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661323753924854, "dur":1884, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661323753926738, "dur":6660, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661323753933405, "dur":1081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1661323753934488, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661323754080837, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1661323754082976, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661323754082997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661323754083002, "dur":4370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661323754087386, "dur":827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661323754088216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661323754088223, "dur":6272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661323754094511, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661323754094847, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661323754094858, "dur":7112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661323754101984, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661323754102001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661323754102007, "dur":28908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661323754130930, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661323754130947, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661323754130953, "dur":18769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661323754149736, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1661323754149754, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661323754149813, "dur":280099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1661323754429927, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1661323754429928, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661323753924921, "dur":1823, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661323753926744, "dur":6664, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661323753933409, "dur":1014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1661323753934426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661323754029865, "dur":7242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1661323754037307, "dur":569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661323754037879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661323754037885, "dur":18687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661323754056587, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661323754056605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661323754056609, "dur":11934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661323754068562, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661323754068582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661323754068589, "dur":12023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661323754080633, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661323754080787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661323754080836, "dur":5502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661323754086383, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661323754086410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661323754086421, "dur":7168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661323754093617, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661323754093945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661323754093951, "dur":2959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661323754096923, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661323754096938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661323754096942, "dur":39856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661323754136825, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661323754137099, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661323754137103, "dur":18505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661323754155620, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1661323754155887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661323754155891, "dur":62925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1661323754218835, "dur":211122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661323753925030, "dur":1718, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661323753926749, "dur":6661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661323753933411, "dur":1039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1661323753934452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661323754064590, "dur":11727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1661323754076552, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661323754076579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661323754076584, "dur":4651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661323754081248, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661323754081263, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661323754081267, "dur":5230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661323754086509, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661323754086827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661323754086832, "dur":7649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661323754094505, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661323754094781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661323754094785, "dur":7723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661323754102521, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661323754102541, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661323754102545, "dur":28393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661323754130952, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Facebook.Wit.TTS.Samples.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661323754131152, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661323754131157, "dur":9101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Facebook.Wit.TTS.Samples.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661323754140276, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":6, "ts":1661323754140297, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661323754145681, "dur":85553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":6, "ts":1661323754231253, "dur":198722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661323753925155, "dur":1596, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661323753926751, "dur":6674, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661323753933425, "dur":945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1661323753934406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661323754021425, "dur":11429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1661323754032998, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754033018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661323754033023, "dur":7252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754040286, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754040299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661323754040304, "dur":16058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754056375, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754056529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661323754056535, "dur":12113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754068667, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754068741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661323754068747, "dur":11824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754080589, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754080614, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661323754080619, "dur":6509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754087140, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754087527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661323754087537, "dur":6721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754094271, "dur":482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754094756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661323754094761, "dur":7130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754101904, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754101919, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661323754101924, "dur":20333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754122275, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754122294, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661323754122360, "dur":27338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661323754149719, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1661323754149738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661323754149743, "dur":91659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1661323754241417, "dur":188554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661323753925255, "dur":1500, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661323753926755, "dur":6752, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661323753933507, "dur":658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1661323753934168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661323753943749, "dur":13935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1661323753957832, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense.exe" }}
+,{ "pid":12345, "tid":8, "ts":1661323753957849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661323753957854, "dur":38195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense.exe" }}
+,{ "pid":12345, "tid":8, "ts":1661323753996123, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323753996454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661323753996459, "dur":29317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754025797, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754025830, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661323754025837, "dur":10979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754036829, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754036920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661323754036927, "dur":19048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754055993, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754056016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661323754056021, "dur":12322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754068362, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754068386, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661323754068391, "dur":12225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754080634, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754080654, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661323754080662, "dur":5783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754086459, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754086805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661323754086810, "dur":7657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754094490, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754094755, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661323754094760, "dur":11961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754106737, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754106751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661323754106756, "dur":48847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661323754155617, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1661323754155837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661323754155842, "dur":59615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1661323754215473, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1661323754215678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661323754215684, "dur":28328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1661323754244022, "dur":185957, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661323753925362, "dur":1398, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661323753926760, "dur":6651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661323753933412, "dur":1011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1661323753934427, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661323754037159, "dur":16148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1661323754053454, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661323754053487, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661323754053494, "dur":8352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661323754061859, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661323754062050, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661323754062055, "dur":11241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661323754073312, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661323754073412, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661323754073417, "dur":7379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661323754080872, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661323754080890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661323754080895, "dur":5123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661323754086036, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661323754086052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661323754086059, "dur":8430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661323754094526, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661323754094860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661323754094907, "dur":11820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661323754106748, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661323754106763, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661323754106767, "dur":33474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661323754140257, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":9, "ts":1661323754140277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661323754149687, "dur":90678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":9, "ts":1661323754240385, "dur":189593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323753925464, "dur":1300, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323753926764, "dur":6650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323753933415, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1661323753934080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323753939211, "dur":3283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1661323753942687, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323753942952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323753943806, "dur":25382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323753969338, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/VoiceSDK.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323753969569, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323753976685, "dur":24601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/VoiceSDK.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754001301, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754001314, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323754001320, "dur":24522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754025871, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754025893, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323754025898, "dur":11016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754036928, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754036940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323754036945, "dur":19052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754056014, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754056042, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323754056047, "dur":9379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754065438, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754065454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323754065459, "dur":15732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754081222, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754081246, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323754081251, "dur":6112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754087391, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754087453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323754087457, "dur":6660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754094150, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754094549, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323754094561, "dur":8123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754102701, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754102800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323754102807, "dur":28077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754130908, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754130928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323754130935, "dur":57642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661323754188600, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1661323754188625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661323754188632, "dur":35320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1661323754223964, "dur":206012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323753925516, "dur":1252, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323753926768, "dur":6656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323753933424, "dur":656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1661323753934082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323753939525, "dur":2499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1661323753942138, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1661323753942322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323753942328, "dur":8439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1661323753950877, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1661323753950990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323753950994, "dur":45073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1661323753996268, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323753996289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323753996304, "dur":29463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754025789, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754025842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323754025850, "dur":11073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754036943, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754036959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323754036964, "dur":18951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754055935, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754055975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323754055982, "dur":12770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754068779, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754068808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323754068814, "dur":11998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754080870, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754080892, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323754080897, "dur":5533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754086444, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754086764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323754086770, "dur":7042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754093828, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754094073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323754094078, "dur":5121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754099211, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754099226, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323754099270, "dur":13243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754112524, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754112536, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323754112540, "dur":37279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661323754149842, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1661323754149859, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661323754149865, "dur":94420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1661323754244294, "dur":185673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661323753925705, "dur":1068, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661323753926773, "dur":6644, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661323753933423, "dur":1045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1661323753934470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661323754076309, "dur":4578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1661323754081140, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661323754081171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661323754081177, "dur":5878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661323754087071, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661323754087560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661323754087563, "dur":6244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661323754093822, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661323754094244, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661323754094250, "dur":8424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661323754102688, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661323754102797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661323754102802, "dur":19436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661323754122261, "dur":817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Oculus.VR.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661323754123081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661323754123086, "dur":26605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Oculus.VR.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661323754149713, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1661323754149733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661323754149763, "dur":91635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1661323754241415, "dur":188557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1661323753925731, "dur":1046, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1661323753926777, "dur":6642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1661323753933419, "dur":726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1661323753934148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1661323753942441, "dur":7009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1661323753949599, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1661323753949737, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1661323753949741, "dur":131489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1661323754081563, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1661323754081584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1661323754081590, "dur":5724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1661323754087324, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":13, "ts":1661323754087545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1661323754087549, "dur":6786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":13, "ts":1661323754094366, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":13, "ts":1661323754094909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1661323754094917, "dur":11778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":13, "ts":1661323754106706, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1661323754106719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1661323754106723, "dur":32047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1661323754138781, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":13, "ts":1661323754138838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1661323754144128, "dur":66512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":13, "ts":1661323754210661, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1661323754210674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1661323754210681, "dur":20558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1661323754231258, "dur":198706, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1661323753925900, "dur":881, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1661323753926782, "dur":6639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1661323753933421, "dur":1027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1661323753934451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1661323754056003, "dur":9553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1661323754065664, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1661323754065683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1661323754065687, "dur":14791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1661323754080493, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1661323754080511, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1661323754080516, "dur":5875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1661323754086408, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1661323754086425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1661323754086431, "dur":5751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1661323754092195, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":14, "ts":1661323754092587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1661323754092593, "dur":2595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":14, "ts":1661323754095205, "dur":1392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1661323754096600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1661323754096607, "dur":25642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1661323754122269, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Oculus.Voice.Demo.dll" }}
+,{ "pid":12345, "tid":14, "ts":1661323754122555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1661323754122561, "dur":16205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Oculus.Voice.Demo.dll" }}
+,{ "pid":12345, "tid":14, "ts":1661323754138777, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Plugins/x86_64/OculusXRPlugin.dll" }}
+,{ "pid":12345, "tid":14, "ts":1661323754138794, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1661323754140435, "dur":42894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Plugins/x86_64/OculusXRPlugin.dll" }}
+,{ "pid":12345, "tid":14, "ts":1661323754183347, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/level0.resS" }}
+,{ "pid":12345, "tid":14, "ts":1661323754183361, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1661323754183367, "dur":43798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/level0.resS" }}
+,{ "pid":12345, "tid":14, "ts":1661323754227174, "dur":202788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1661323753926035, "dur":750, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1661323753926785, "dur":6642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1661323753933428, "dur":843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1661323753934397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1661323753974210, "dur":31045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1661323754005432, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754005446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1661323754005450, "dur":24399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754029872, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754029911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1661323754029918, "dur":7215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754037148, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754037247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1661323754037254, "dur":18666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754055940, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754055998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1661323754056005, "dur":12754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754068789, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754068812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1661323754068819, "dur":12055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754081003, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754081026, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1661323754081174, "dur":12082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754093275, "dur":701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754093978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1661323754093986, "dur":8659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754102660, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754102678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1661323754102683, "dur":19589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754122290, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754122359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1661323754122365, "dur":16398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754138774, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Plugins/x86_64/OVRPlugin.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754138790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1661323754140436, "dur":79599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Plugins/x86_64/OVRPlugin.dll" }}
+,{ "pid":12345, "tid":15, "ts":1661323754220048, "dur":209907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1661323753926073, "dur":715, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1661323753926788, "dur":6632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1661323753933421, "dur":901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1661323753934402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1661323753996087, "dur":29675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1661323754026029, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754026054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1661323754026057, "dur":10861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754036931, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754036949, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1661323754036952, "dur":19056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754056026, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754056055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1661323754056061, "dur":9499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754065575, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754065588, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1661323754065591, "dur":15216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754080886, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754080910, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1661323754080915, "dur":5428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754086360, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754086385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1661323754086391, "dur":7327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754093732, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754093979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1661323754093986, "dur":2909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754096911, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754096928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1661323754096933, "dur":19194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754116146, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754116182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1661323754116187, "dur":20602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754136801, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Facebook.Wit.TTS.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754137069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1661323754137075, "dur":18540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/Managed/Facebook.Wit.TTS.dll" }}
+,{ "pid":12345, "tid":16, "ts":1661323754155631, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1661323754155643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1661323754155648, "dur":63174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Choi/4. VR_Life_unity/Tower_Build/ /1.3 VRTowerDefense_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1661323754218836, "dur":211124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661323754442654, "dur":2188, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1661323754447943, "dur": 2062, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661323754447657, "dur": 2412, "ph": "X", "name": "Write chrome-trace events", "args": {} },
